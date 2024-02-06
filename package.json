@@ -1,0 +1,19 @@
+{
+  "name": "4337-beacon-proxy-bundler-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sergey Potekhin <hello@sergeypotekhin.com>",
+  "license": "MIT",
+  "scripts": {
+    "gen:types": "typechain --target=ethers-v5 --out-dir=src/typechain 'abi/*.json'"
+  },
+  "dependencies": {
+    "@typechain/ethers-v5": "^11.1.2",
+    "dotenv": "^16.4.1",
+    "ethers": "5.7.2",
+    "ts-node": ">=8.0.0",
+    "typechain": "^8.3.0",
+    "typescript": ">=4.5.0",
+    "userop": "^0.3.8"
+  }
+}
